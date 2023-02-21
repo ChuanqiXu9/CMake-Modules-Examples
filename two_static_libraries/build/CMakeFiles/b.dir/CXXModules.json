@@ -1,0 +1,26 @@
+{
+	"modules" : 
+	{
+		"b" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/b.dir/b.pcm"
+	},
+	"references" : 
+	{
+		"a" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/a.dir/a.pcm"
+		},
+		"b" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/b.dir/b.pcm"
+		}
+	},
+	"usages" : 
+	{
+		"b" : 
+		[
+			"a"
+		]
+	}
+}

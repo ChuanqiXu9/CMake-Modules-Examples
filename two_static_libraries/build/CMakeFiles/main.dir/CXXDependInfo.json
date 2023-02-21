@@ -1,0 +1,19 @@
+{
+	"bmi-installation" : null,
+	"compiler-id" : "Clang",
+	"config" : "",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build",
+	"dir-cur-src" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries",
+	"dir-top-bld" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build",
+	"dir-top-src" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries",
+	"exports" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/a.dir",
+		"/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/b.dir"
+	],
+	"module-dir" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/main.dir"
+}

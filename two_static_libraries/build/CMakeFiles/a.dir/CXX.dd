@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/a.dir/a.cppm.o | CMakeFiles/a.dir/a.pcm: dyndep
+  restat = 1
+

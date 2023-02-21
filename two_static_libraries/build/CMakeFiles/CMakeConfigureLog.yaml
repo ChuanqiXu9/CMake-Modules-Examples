@@ -1,0 +1,419 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 4.9.151-015.ali3000.alios7.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/3.26.20230220-gd18806e/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/3.26.20230220-gd18806e/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+      clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv"
+      binary: "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv
+        
+        Run Build Command(s):/usr/local/bin/ninja -v cmTC_b6637 && [1/2] /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -c /home/chuanqi.xcq/CMake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/home/chuanqi.xcq/llvm-project-for-work/build/bin/clang-14" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv -resource-dir /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17 -dependency-file CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward -internal-isystem /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/chuanqi.xcq/CMake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10
+         /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward
+         /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        [2/2] : && /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang++  -v CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6637   && :
+        clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b6637 /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+          add: [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10] ==> [/usr/include/c++/10]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux] ==> [/usr/include/c++/10/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+        collapse include dir [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include] ==> [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/10;/usr/include/c++/10/x86_64-redhat-linux;/usr/include/c++/10/backward;/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/ninja -v cmTC_b6637 && [1/2] /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -c /home/chuanqi.xcq/CMake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/chuanqi.xcq/llvm-project-for-work/build/bin/clang-14" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv -resource-dir /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17 -dependency-file CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10 -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward -internal-isystem /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-dY52Fv -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/chuanqi.xcq/CMake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward]
+        ignore line: [ /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang++  -v CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6637   && :]
+        ignore line: [clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b6637 /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b6637] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o]
+          arg [-L/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu] ==> dir [/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [CMakeFiles/cmTC_b6637.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu] ==> [/home/chuanqi.xcq/llvm-project-for-work/build/lib/x86_64-unknown-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/usr/lib/gcc/x86_64-redhat-linux/10]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/home/chuanqi.xcq/llvm-project-for-work/build/lib/x86_64-unknown-linux-gnu;/usr/lib/gcc/x86_64-redhat-linux/10;/usr/lib64;/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz"
+      binary: "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz
+        
+        Run Build Command(s):/usr/local/bin/ninja -v cmTC_6fed0 && [1/2] /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang   -v -MD -MT CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -c /home/chuanqi.xcq/CMake/Modules/CMakeCCompilerABI.c
+        clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/home/chuanqi.xcq/llvm-project-for-work/build/bin/clang-14" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz -resource-dir /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17 -dependency-file CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -x c /home/chuanqi.xcq/CMake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        [2/2] : && /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang  -v CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -o cmTC_6fed0   && :
+        clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6fed0 /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include] ==> [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/chuanqi.xcq/CMake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/ninja -v cmTC_6fed0 && [1/2] /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang   -v -MD -MT CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -c /home/chuanqi.xcq/CMake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/chuanqi.xcq/llvm-project-for-work/build/bin/clang-14" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz -resource-dir /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17 -dependency-file CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/CMakeScratch/TryCompile-1WNZhz -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -x c /home/chuanqi.xcq/CMake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.0 based upon LLVM 17.0.0git default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/chuanqi.xcq/llvm-project-for-work/build/lib/clang/17/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/chuanqi.xcq/llvm-project-for-work/build/bin/clang  -v CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -o cmTC_6fed0   && :]
+        ignore line: [clang version 17.0.0 (git@github.com:llvm/llvm-project.git 2dfa957f120244ddc0238b548282f67d89f1a832)]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/chuanqi.xcq/llvm-project-for-work/build/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/10]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6fed0 /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o -L/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu -L/usr/lib/gcc/x86_64-redhat-linux/10 -L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/10/crtend.o /usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6fed0] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o]
+          arg [-L/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu] ==> dir [/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/10] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [CMakeFiles/cmTC_6fed0.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/home/chuanqi.xcq/llvm-project-for-work/build/bin/../lib/x86_64-unknown-linux-gnu] ==> [/home/chuanqi.xcq/llvm-project-for-work/build/lib/x86_64-unknown-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10] ==> [/usr/lib/gcc/x86_64-redhat-linux/10]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/10/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/10/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/home/chuanqi.xcq/llvm-project-for-work/build/lib/x86_64-unknown-linux-gnu;/usr/lib/gcc/x86_64-redhat-linux/10;/usr/lib64;/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+...

@@ -1,0 +1,29 @@
+{
+	"bmi-installation" : null,
+	"compiler-id" : "Clang",
+	"config" : "",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/b.dir/b.cppm.o" : 
+		{
+			"destination" : null,
+			"name" : "cxx_modules",
+			"relative-directory" : "",
+			"source" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/b.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"dir-cur-bld" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build",
+	"dir-cur-src" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries",
+	"dir-top-bld" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build",
+	"dir-top-src" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries",
+	"exports" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/a.dir"
+	],
+	"module-dir" : "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/b.dir"
+}

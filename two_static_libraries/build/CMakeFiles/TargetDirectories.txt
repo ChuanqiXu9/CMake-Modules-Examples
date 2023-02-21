@@ -1,0 +1,5 @@
+/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/a.dir
+/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/b.dir
+/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/main.dir
+/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/edit_cache.dir
+/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/a.dir/a.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "a",
+          "source-path": "/home/chuanqi.xcq/CMake-Modules-Examples/two_static_libraries/a.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

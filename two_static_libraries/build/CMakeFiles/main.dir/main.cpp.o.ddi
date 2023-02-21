@@ -1,0 +1,17 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/main.dir/main.cpp.o",
+      "requires": [
+        {
+          "logical-name": "a"
+        },
+        {
+          "logical-name": "b"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
